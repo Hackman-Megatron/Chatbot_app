@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
         () {
             setState(() {
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context)=> const SplashScreen()
+                  MaterialPageRoute(builder: (context)=> const LoginByMails()
                   )
               );
             });
@@ -49,14 +49,17 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("ChatBot",
-              style: GoogleFonts.lato(
+              style: GoogleFonts.alegreya(
                 textStyle: const TextStyle(
                   fontSize: 70,
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w800,
                   fontStyle: FontStyle.italic,
                   color: Colors.white
                 ),
               ),
+            ),
+            Image.asset("assets/logos/logo-white.png",
+              height: 125,
             ),
             const SizedBox(height: 100,),
             const SpinKitCubeGrid(

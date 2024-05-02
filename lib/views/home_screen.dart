@@ -11,7 +11,9 @@ class _HomeLandState extends State<HomeLand> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Center(
+        child: Text('homeland'),
+      ),
     );
   }
 }
