@@ -58,12 +58,12 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 125,),
+            const SizedBox(height: 150,),
             const SpinKitCubeGrid(
               color: Colors.white,
               size: 75,
             ),
-            const SizedBox(height: 75,),
+            const SizedBox(height: 50,),
             Text("By The Flutter Group 12",
               style: GoogleFonts.roboto(
                 textStyle: const TextStyle(

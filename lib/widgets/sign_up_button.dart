@@ -1,5 +1,6 @@
 import 'package:chatbot/views/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ButtsForSignUp extends StatelessWidget {
   const ButtsForSignUp({super.key,
@@ -57,7 +58,15 @@ class ButtsForSignUp extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 15,),
-            Text(texting),
+            Text(texting,
+              style: GoogleFonts.raleway(
+                textStyle: const TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.black
+                ),
+              ),
+            ),
           ],
         ),
       ),
