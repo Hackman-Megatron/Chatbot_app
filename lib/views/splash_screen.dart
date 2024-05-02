@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("ChatBot",
-              style: GoogleFonts.alegreya(
+              style: GoogleFonts.raleway(
                 textStyle: const TextStyle(
                   fontSize: 70,
                   fontWeight: FontWeight.w800,
@@ -58,17 +58,14 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
             ),
-            Image.asset("assets/logos/logo-white.png",
-              height: 125,
-            ),
-            const SizedBox(height: 100,),
+            const SizedBox(height: 125,),
             const SpinKitCubeGrid(
               color: Colors.white,
               size: 75,
             ),
-            const SizedBox(height: 100,),
+            const SizedBox(height: 75,),
             Text("By The Flutter Group 12",
-              style: GoogleFonts.lato(
+              style: GoogleFonts.roboto(
                 textStyle: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w500,
